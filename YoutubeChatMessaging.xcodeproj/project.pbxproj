@@ -1,0 +1,464 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2699DD242C3F910600180D5F /* YoutubeChatMessagingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699DD232C3F910600180D5F /* YoutubeChatMessagingApp.swift */; };
+		2699DD262C3F910600180D5F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699DD252C3F910600180D5F /* ContentView.swift */; };
+		2699DD282C3F910A00180D5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2699DD272C3F910A00180D5F /* Assets.xcassets */; };
+		2699DD2B2C3F910A00180D5F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2699DD2A2C3F910A00180D5F /* Preview Assets.xcassets */; };
+		2699DD362C3F92E300180D5F /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 2699DD352C3F92E300180D5F /* Kingfisher */; };
+		2699DD382C3F92F600180D5F /* ProfileImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699DD372C3F92F600180D5F /* ProfileImageView.swift */; };
+		2699DD3B2C3F932400180D5F /* UserResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699DD3A2C3F932400180D5F /* UserResponse.swift */; };
+		2699DD3D2C3F932D00180D5F /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699DD3C2C3F932D00180D5F /* UserData.swift */; };
+		2699DD402C3F935C00180D5F /* ChatConversationResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699DD3F2C3F935C00180D5F /* ChatConversationResponse.swift */; };
+		2699DD422C3F937300180D5F /* ChatResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699DD412C3F937300180D5F /* ChatResponse.swift */; };
+		2699DD442C3F939100180D5F /* ChatData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699DD432C3F939100180D5F /* ChatData.swift */; };
+		2699DD462C3F93A300180D5F /* ChatConversationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699DD452C3F93A300180D5F /* ChatConversationData.swift */; };
+		2699DD492C3F93C700180D5F /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699DD482C3F93C700180D5F /* Colors.swift */; };
+		2699DD4B2C3FB50D00180D5F /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699DD4A2C3FB50D00180D5F /* ChatView.swift */; };
+		2699DD4D2C3FBC1700180D5F /* ChatDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2699DD4C2C3FBC1700180D5F /* ChatDetailView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2699DD202C3F910600180D5F /* YoutubeChatMessaging.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YoutubeChatMessaging.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2699DD232C3F910600180D5F /* YoutubeChatMessagingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeChatMessagingApp.swift; sourceTree = "<group>"; };
+		2699DD252C3F910600180D5F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2699DD272C3F910A00180D5F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2699DD2A2C3F910A00180D5F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2699DD372C3F92F600180D5F /* ProfileImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileImageView.swift; sourceTree = "<group>"; };
+		2699DD3A2C3F932400180D5F /* UserResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserResponse.swift; sourceTree = "<group>"; };
+		2699DD3C2C3F932D00180D5F /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		2699DD3F2C3F935C00180D5F /* ChatConversationResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatConversationResponse.swift; sourceTree = "<group>"; };
+		2699DD412C3F937300180D5F /* ChatResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatResponse.swift; sourceTree = "<group>"; };
+		2699DD432C3F939100180D5F /* ChatData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatData.swift; sourceTree = "<group>"; };
+		2699DD452C3F93A300180D5F /* ChatConversationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatConversationData.swift; sourceTree = "<group>"; };
+		2699DD482C3F93C700180D5F /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		2699DD4A2C3FB50D00180D5F /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		2699DD4C2C3FBC1700180D5F /* ChatDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatDetailView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2699DD1D2C3F910600180D5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2699DD362C3F92E300180D5F /* Kingfisher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2699DD172C3F910600180D5F = {
+			isa = PBXGroup;
+			children = (
+				2699DD222C3F910600180D5F /* YoutubeChatMessaging */,
+				2699DD212C3F910600180D5F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2699DD212C3F910600180D5F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2699DD202C3F910600180D5F /* YoutubeChatMessaging.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2699DD222C3F910600180D5F /* YoutubeChatMessaging */ = {
+			isa = PBXGroup;
+			children = (
+				2699DD332C3F91A200180D5F /* Components */,
+				2699DD322C3F919B00180D5F /* Models */,
+				2699DD472C3F93B800180D5F /* Themes */,
+				2699DD312C3F918200180D5F /* Pages */,
+				2699DD232C3F910600180D5F /* YoutubeChatMessagingApp.swift */,
+				2699DD252C3F910600180D5F /* ContentView.swift */,
+				2699DD272C3F910A00180D5F /* Assets.xcassets */,
+				2699DD292C3F910A00180D5F /* Preview Content */,
+			);
+			path = YoutubeChatMessaging;
+			sourceTree = "<group>";
+		};
+		2699DD292C3F910A00180D5F /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2699DD2A2C3F910A00180D5F /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2699DD312C3F918200180D5F /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				2699DD4A2C3FB50D00180D5F /* ChatView.swift */,
+				2699DD4C2C3FBC1700180D5F /* ChatDetailView.swift */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		2699DD322C3F919B00180D5F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2699DD3E2C3F934B00180D5F /* Chat */,
+				2699DD392C3F931400180D5F /* User */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2699DD332C3F91A200180D5F /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				2699DD372C3F92F600180D5F /* ProfileImageView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		2699DD392C3F931400180D5F /* User */ = {
+			isa = PBXGroup;
+			children = (
+				2699DD3A2C3F932400180D5F /* UserResponse.swift */,
+				2699DD3C2C3F932D00180D5F /* UserData.swift */,
+			);
+			path = User;
+			sourceTree = "<group>";
+		};
+		2699DD3E2C3F934B00180D5F /* Chat */ = {
+			isa = PBXGroup;
+			children = (
+				2699DD3F2C3F935C00180D5F /* ChatConversationResponse.swift */,
+				2699DD412C3F937300180D5F /* ChatResponse.swift */,
+				2699DD432C3F939100180D5F /* ChatData.swift */,
+				2699DD452C3F93A300180D5F /* ChatConversationData.swift */,
+			);
+			path = Chat;
+			sourceTree = "<group>";
+		};
+		2699DD472C3F93B800180D5F /* Themes */ = {
+			isa = PBXGroup;
+			children = (
+				2699DD482C3F93C700180D5F /* Colors.swift */,
+			);
+			path = Themes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2699DD1F2C3F910600180D5F /* YoutubeChatMessaging */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2699DD2E2C3F910A00180D5F /* Build configuration list for PBXNativeTarget "YoutubeChatMessaging" */;
+			buildPhases = (
+				2699DD1C2C3F910600180D5F /* Sources */,
+				2699DD1D2C3F910600180D5F /* Frameworks */,
+				2699DD1E2C3F910600180D5F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YoutubeChatMessaging;
+			packageProductDependencies = (
+				2699DD352C3F92E300180D5F /* Kingfisher */,
+			);
+			productName = YoutubeChatMessaging;
+			productReference = 2699DD202C3F910600180D5F /* YoutubeChatMessaging.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2699DD182C3F910600180D5F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					2699DD1F2C3F910600180D5F = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = 2699DD1B2C3F910600180D5F /* Build configuration list for PBXProject "YoutubeChatMessaging" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2699DD172C3F910600180D5F;
+			packageReferences = (
+				2699DD342C3F92E300180D5F /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = 2699DD212C3F910600180D5F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2699DD1F2C3F910600180D5F /* YoutubeChatMessaging */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2699DD1E2C3F910600180D5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2699DD2B2C3F910A00180D5F /* Preview Assets.xcassets in Resources */,
+				2699DD282C3F910A00180D5F /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2699DD1C2C3F910600180D5F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2699DD422C3F937300180D5F /* ChatResponse.swift in Sources */,
+				2699DD492C3F93C700180D5F /* Colors.swift in Sources */,
+				2699DD462C3F93A300180D5F /* ChatConversationData.swift in Sources */,
+				2699DD382C3F92F600180D5F /* ProfileImageView.swift in Sources */,
+				2699DD4B2C3FB50D00180D5F /* ChatView.swift in Sources */,
+				2699DD262C3F910600180D5F /* ContentView.swift in Sources */,
+				2699DD442C3F939100180D5F /* ChatData.swift in Sources */,
+				2699DD242C3F910600180D5F /* YoutubeChatMessagingApp.swift in Sources */,
+				2699DD3D2C3F932D00180D5F /* UserData.swift in Sources */,
+				2699DD4D2C3FBC1700180D5F /* ChatDetailView.swift in Sources */,
+				2699DD3B2C3F932400180D5F /* UserResponse.swift in Sources */,
+				2699DD402C3F935C00180D5F /* ChatConversationResponse.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2699DD2C2C3F910A00180D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2699DD2D2C3F910A00180D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2699DD2F2C3F910A00180D5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YoutubeChatMessaging/Preview Content\"";
+				DEVELOPMENT_TEAM = LP846EEF49;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sopheamen.app.YoutubeChatMessaging;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2699DD302C3F910A00180D5F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"YoutubeChatMessaging/Preview Content\"";
+				DEVELOPMENT_TEAM = LP846EEF49;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sopheamen.app.YoutubeChatMessaging;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2699DD1B2C3F910600180D5F /* Build configuration list for PBXProject "YoutubeChatMessaging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2699DD2C2C3F910A00180D5F /* Debug */,
+				2699DD2D2C3F910A00180D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2699DD2E2C3F910A00180D5F /* Build configuration list for PBXNativeTarget "YoutubeChatMessaging" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2699DD2F2C3F910A00180D5F /* Debug */,
+				2699DD302C3F910A00180D5F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		2699DD342C3F92E300180D5F /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		2699DD352C3F92E300180D5F /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2699DD342C3F92E300180D5F /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 2699DD182C3F910600180D5F /* Project object */;
+}
