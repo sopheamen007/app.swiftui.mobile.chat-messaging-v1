@@ -12,7 +12,7 @@ Here are some screenshots of the application:
 
 ## Features
 
-- **Messaging User Historyg**: View past conversations and message history.
+- **Messaging User History**: View past conversations and message history.
 - **Messaging Conversation Detail**: Access detailed views of individual conversations.
 
 ## Package Dependencies
