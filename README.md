@@ -8,7 +8,6 @@ Here are some screenshots of the application:
 ![Video Player](https://github.com/user-attachments/assets/5322aef6-1a5d-4c44-ab4f-14b75977d8ef)
 
 ![Main Screen](https://github.com/user-attachments/assets/bade3d1d-0aed-4303-b663-5652ed5a476b)
-*Main Screen*
 
 ## Features
 
